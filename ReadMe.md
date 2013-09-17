@@ -1,6 +1,6 @@
-# Arctic /Marine/ Mammals 
+# Arctic Discovery
 
-My topic specifically deals with Arctic /Marine/ Mammals and their ecology. I chose this topic because I have a long standing interest in the Arctic Environment, particularly because it is now under thread from global warming and climate change, and increasing human development of natural resources such as oil and fishing. A number of species in the Arctic environment are endangered.   
+My topic specifically deals with Arctic /Marine and Land/ Mammals and their ecology. I chose this topic because I have a long standing interest in the Arctic Environment, particularly because it is now under thread from global warming and climate change, and increasing human development of natural resources such as oil and fishing. A number of species in the Arctic environment are endangered.   
 
 ## Purpose
 The purpose of the project is to develop the large scale data-oriented website. I hope during the course of the project to expand my knowledge in proficiency in web design processes and technologies.
