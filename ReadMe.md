@@ -14,7 +14,7 @@ Svetlana Kurmeleva
 
 General target audience will be the general public, but specifically, the website will be of great interest to people who are interested in conservation, ecology, and environmental issues.
 
-- [Personas](Personas.md)
+- [Personas](https://github.com/svetlana-kurmeleva/large-data-website/blob/master/personas.md)
 
 ## Content sources
 
