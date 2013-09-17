@@ -5,6 +5,7 @@
 - list of items with titles and short description
 - links to the full version of the pages
 - Images
+- Search Field
 
 
 ## 2. Medium
