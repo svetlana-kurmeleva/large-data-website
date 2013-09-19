@@ -3,7 +3,7 @@
 ## 1. High
 
 - Links to list of maritime animals, preferably with images
-- Welcom message describing purpose of the website
+- Welcome message describing purpose of the website
 - Overview of what classifies the Arctic ecosystem
 - Search
 
