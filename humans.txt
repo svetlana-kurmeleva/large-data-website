@@ -1,0 +1,29 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Svetlana Kurmeleva <svetlana.kurmeleva@gmail.com>
+Site: https://github.com/svetlana-kurmeleva/large-data-website/blob/master/index.html
+GitHub: https://github.com/svetlana-kurmeleva/large-data-website/blob/master/index.html
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Images from: 
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+
+- Git + GitHub
+- Bootstrap
+- Markdown
+
+## Hosting
+
+- WiredTree <http://wiredtree.com>
