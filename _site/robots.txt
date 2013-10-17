@@ -1,0 +1,9 @@
+#http://robotstxt.org
+
+# Show search engines where to find our sitemap
+Siemap: https://github.com/svetlana-kurmeleva/large-data-website/blob/master/index.html
+User-Agent: *
+
+# Block images from showing in search results
+# Disallow: /img
+

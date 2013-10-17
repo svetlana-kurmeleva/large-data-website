@@ -1,0 +1,290 @@
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+h4 {
+	margin-top: 25px;
+}
+
+
+
+.navbar {
+	margin-bottom: 0;
+}
+
+
+
+
+html {
+	font: normal,100%/1.6;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	height: 100%;
+
+}
+
+
+
+
+body {
+	 margin: 0;
+}
+
+.unit-s {
+	width: 100%;
+}
+
+
+
+h1 {
+		
+	color:white;
+	margin-top: -55px;
+	font-size: 4em;
+	width: 100%;
+	line-height: 1;
+	text-transform: uppercase;
+		
+}
+
+
+.color {
+	color: #ffd08f;
+	
+}
+
+
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+.grid {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	
+	
+
+}
+
+
+nav ul {
+	padding-left: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 38em) {
+
+img.flex-img {
+	width: 150%;
+		
+}
+
+
+h1 {
+	background: #ffd08f;
+	color:#fff;
+	margin-top: -22px;
+	font-size: 1.6em;
+	width: 100%;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-right: 10px;
+	padding-left: 20px;
+		
+}
+
+@media only screen and (min-width: 21em) and (max-width: 38em) {
+	
+	html {
+		background: #ffd08f;
+		height: 100%;
+}
+	
+	
+	h1 {
+		font-size: 2em;
+		margin-top: -26px;
+}
+	
+}
+
+
+
+
+.color{
+	color: #ffd08f;
+}
+
+p {
+	margin-top: 0;
+	background: #ffd08f;
+	line-height: 1.7;
+	padding: 20px 25px;
+	font-size: 0.9em;
+	
+}
+
+
+.unit-s {
+	
+	width: 100%;
+	
+}
+
+.unit-s p {
+	background: #ffd08f;
+	height: 100%;
+}
+
+
+
+	
+}
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+	
+		
+	
+.unit-m-hidden {
+		display: none;
+	
+}
+.unit-m-1-2 {
+	width: 100%;
+	
+	
+	
+}
+
+
+.unit-m {
+	width: 100%;
+}
+
+
+
+
+
+
+
+.color{
+	color: #ffd08f;
+	
+}
+
+
+.box {
+	
+	overflow: hidden;
+	margin-top: -52px;
+	
+}
+
+.unit-m-2 {
+	margin-left: 238px;
+	display: inline-block;
+	background: #ffd08f;
+}
+
+.unit-m-2 p {
+ 	width: 55%;
+ 	line-height: 1.7;
+ 	font-size: 110%;
+ 	background: #ffd08f;
+	height: 100%;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+	padding-top: 20px;
+ 
+ 
+}
+
+	
+h1 {
+		
+	padding-left: 20px;
+}
+	
+
+
+}
+@media only screen and (min-width: 60em) {
+
+	
+
+p {
+	height: 140px;
+	margin-top: 0;
+}
+	
+.unit-l-1-6 {
+	width: 66.6666%;
+	display: inline-block;
+	float: right;
+	
+	
+}
+
+.color {
+	color: #ffd08f;
+	
+}
+
+.unit-l-2-6 {
+	margin-left: 249px;
+	display: inline-block;
+	background: #ffd08f;
+}
+
+.unit-l-2-6 p {
+ 	width: 70%;
+ 	line-height: 1.7;
+ 	font-size: 120%;
+	background: #ffd08f;
+	height: 100%;
+ 	padding-left: 25px;
+}
+
+
+
+
+h1 {
+	margin-left: 30px;
+}
+
+.box {
+	
+	overflow: hidden;
+	margin-top: -52px;
+}
+
+
+.unit-spacer {
+	padding: 20px;
+	padding-top: 35px;
+	
+	
+	
+}
+
+
+
+.unit-l {
+	width: 100%;
+}
+
+
+
+
+}
+
