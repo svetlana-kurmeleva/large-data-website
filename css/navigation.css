@@ -21,6 +21,8 @@ ol {
 	
 }
 
+
+
 @media only screen and (max-width: 48em) {
 
 .wrapper {
@@ -145,6 +147,15 @@ ol {
 	-o-transform:rotate(180deg);
 	transform:rotate(180deg);
 }
+
+		  
+.nav a.selected {
+	color: #fff;
+}
+
+
+
+
 
 /*------------------------------------*\
     Media Queries

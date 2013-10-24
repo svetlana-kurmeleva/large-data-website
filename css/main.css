@@ -138,6 +138,99 @@ h1 {
 }
 
 
+/*ECOSYSTEM*/
+
+.unit {
+	float: left;
+}
+
+	
+h2 {
+	margin-top: 0;
+	font-size: 1.3rem;
+}
+	
+	
+.boxEcosystem {
+	width: 100%;
+	clear: both;
+	margin-top: -5px;
+	
+}
+
+.boxEcosystem .unit-s {
+	margin-left: 0;
+	background: #c2d7ff;
+}
+
+
+.boxEcosystem p {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 0;
+	background: #c2d7ff;
+}
+
+
+
+.ecosystem {
+	background: #ebebeb;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	
+	
+}
+
+.colorEcosystem{
+	margin-left: 5%;
+	color: #c2d7ff;
+	margin-top: -100px;
+}
+
+.unit-2s{
+	
+	width: 100%;
+	display: block;
+	background: #c2d7ff;
+	
+
+}
+.unit-2s p {
+	padding: 20px;
+	margin-top: 0;
+	background: #c2d7ff;
+}
+.unit-2s h2 {
+	padding: 20px 20px 0 20px;
+	margin-bottom: 0;
+}
+.unit-2s img {
+	width: 100%;
+}
+
+.quote  {
+	background: #ccc;
+	color: #fff;
+	width: 100%;
+	font-size: 1.5em;
+	
+	text-transform: uppercase;
+	text-align: right;
+	
+	
+}
+.quote p  {
+line-height: 1.2rem;
+margin-bottom: 0;
+padding: 20px 20px 0 0;
+margin-top: 0;
+}
+
+
+
+/*end of Ecosystem*/
+
 
 
 
@@ -168,7 +261,7 @@ h1 {
 
 p {
 	margin-top: 0;
-	background: #ffd08f;
+	
 	line-height: 1.7;
 	padding: 20px 25px 0 25px;
 	font-size: 0.9em;
@@ -235,7 +328,7 @@ display: block;
  	
  	line-height: 1.7;
  	font-size: 110%;
- 	background: #ffd08f;
+ 	
 	height: 100%;
  	padding-left: 30px;
  	padding-right: 30px;
@@ -259,6 +352,98 @@ h1.headerWalruse {
 }
 
 
+/*ECOSYSTEM*/
+
+.unit {
+	float: left;
+}
+	
+h2 {
+	margin-top: 0;
+}
+	
+	
+.boxEcosystem {
+	width: 100%;
+	margin-top: -53px;
+	
+}
+
+.boxEcosystem .unit-l-1 {
+	margin-left: 0;
+	background: #c2d7ff;
+}
+
+
+.boxEcosystem p {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+
+
+
+.ecosystem {
+	background: #ebebeb;
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+	
+	
+}
+
+.colorEcosystem{
+	margin-left: 10%;
+	color: #c2d7ff;
+	font-size: 3.2rem;
+}
+
+.unit-2m-2{
+	
+	width: 50%;
+	display: inline-block;
+
+}
+.unit-2m-2 p {
+	padding: 20px;
+	margin-top: 0;
+}
+
+.unit-2m p {
+	padding: 20px;
+	margin-top: 0
+}
+.unit-2m-2 h2, .unit-2m h2 {
+	padding: 20px 20px 0 20px;
+	margin-bottom: 0;
+}
+.unit-2m {
+	width: 100%;
+	
+}
+
+.quote  {
+	background: #ccc;
+	color: #fff;
+	width: 100%;
+	font-size: 2em;
+	line-height: 0.9;
+	text-transform: uppercase;
+	text-align: right;
+	
+	
+}
+.quote p  {
+margin-left: 40%;
+margin-bottom: 0;
+padding: 20px 20px 0 0;
+margin-top: 0;
+}
+
+
+
+/*end of Ecosystem*/
+
 
 
 
@@ -269,7 +454,7 @@ h1.headerWalruse {
 	
 
 p {
-	height: 140px;
+	
 	margin-top: 0;
 }
 	
@@ -286,10 +471,10 @@ p {
 }
 
 .unit-l-1 p {
- 	width: 70%;
+ 	width: 90%;
  	line-height: 1.7;
  	font-size: 120%;
-	background: #ffd08f;
+	
 	height: 100%;
  	padding-left: 25px;
 }
@@ -341,6 +526,86 @@ h1.headerWalruse {
 	
 }
 
+
+
+/*ECOSYSTEM*/
+
+.unit {
+	float: left;
+}
+	
+h2 {
+	margin-top: 0;
+}
+	
+	
+.boxEcosystem {
+	width: 100%;
+	margin-top: -53px;
+	
+}
+
+.boxEcosystem .unit-l-1 {
+	margin-left: 0;
+	background: #c2d7ff;
+}
+
+
+.boxEcosystem p {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+
+
+
+.ecosystem {
+	background: #ebebeb;
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+	
+	
+}
+
+.colorEcosystem{
+	margin-left: 10%;
+	color: #c2d7ff;
+}
+
+.unit-2l-3{
+	
+	width: 33.33333%;
+	display: inline-block;
+	
+	
+	
+}
+
+.quote  {
+	background: #ccc;
+	color: #fff;
+	width: 100%;
+	font-size: 2em;
+	line-height: 0.9;
+	text-transform: uppercase;
+	text-align: right;
+	
+	
+}
+.quote p  {
+margin-left: 40%;
+margin-bottom: 0;
+padding: 20px 20px 0 0;
+
+}
+
+
+
+/*end of Ecosystem*/
+
+
+
 }
 
 @media only screen and (min-width: 100em) {
@@ -367,8 +632,6 @@ h1.headerWalruse {
 
 	
 }
-
-
 
 
 
