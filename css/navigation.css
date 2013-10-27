@@ -21,13 +21,17 @@ ol {
 	
 }
 
-
+.wrapper {
+	
+	background: rgba(255,255,255,0.6);
+	
+}
 
 @media only screen and (max-width: 48em) {
 
 .wrapper {
 	height: 50px;
-	background: white;
+	
 }
 }
 	
@@ -99,7 +103,7 @@ ol {
 	width:180px;
 }
 .nav-submenu-item a {
-	background:#699DFF;
+	background:#ebebeb;
 	border-bottom:1px solid #ebebeb;
 	display:block;
 	padding:15px;
@@ -194,4 +198,21 @@ ol {
 		position:static;
 		width:100%;
 	}
+}
+@media only screen and (min-width: 45em) {
+	
+.nav-item a {
+	background: none;
+	border-bottom:1px solid #ebebeb;
+
+
+}
+.nav-submenu {
+	background: #fff;
+}
+
+
+
+
+
 }
