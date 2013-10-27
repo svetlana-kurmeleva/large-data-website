@@ -20,7 +20,7 @@ html {
 	text-rendering:optimizeLegibility;
 }
 body {
-	
+	height: 100%;
 	background:#fff;
 }
 
@@ -56,8 +56,39 @@ body {
 
 
 
+.socialMedia {
+	
+	margin-left: 10%;
+	margin-top: 0;
+	
+}
 
+.socialMedia li {
+	
+	display: inline;
+	
+	
+}
 
+.socialMedia img{
+	display: inline;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	
+	
+}
+footer {
+	background: #ebebeb;
+	width: 100%;
+	height: 80px;
+}
+.copyright {
+	padding-top: 10px;
+	padding-left: 0;
+	display: inline-block;
+	
+}
 
 h1 {
 		
@@ -71,7 +102,7 @@ h1 {
 }
 
 .color {
-	color: #ffd08f;
+	color: #ffc58f;
 	
 }
 
@@ -85,6 +116,12 @@ h1 {
 .grid {
 	overflow: hidden;
 	display: block;
+	
+	margin-top: -57px;
+}
+.flex-img1 {
+	width: 100%;
+}
 	
 	
 }
@@ -104,18 +141,18 @@ nav ul {
 @media only screen and (max-width: 38em) {
 
 html {
-	background: #ffd08f;
+	background: #fff;
 }
 
 
 img.flex-img {
-	width: 150%;
+	width: 240%;
 		
 }
 
 
 h1 {
-	background: #ffd08f;
+	background: #ffc58f;
 	color:#fff;
 	margin-top: -22px;
 	font-size: 1.6em;
@@ -123,18 +160,25 @@ h1 {
 	line-height: 1;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	padding-right: 10px;
-	padding-left: 10px;
+	
+	margin-left: 5%;
 		
 }
 .box {
-	background: #ffd08f;
+	background: #ffc58f;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -5px;
+	overflow: hidden;
+	padding-bottom: 20px;
 }
 	
 
 
-.unit-s {
-	width: 100%;
+.unit-s p{
+	width: 90%;
+	margin:0 auto;
+	
 }
 
 
@@ -235,7 +279,7 @@ margin-top: 0;
 
 
 
-@media only screen and (min-width: 21em) and (max-width: 38em) {
+@media only screen and (min-width:23em) and (max-width: 38em) {
 	
 	
 	
@@ -247,7 +291,15 @@ margin-top: 0;
 }
 	
 	
+img.flex-img {
+	width: 140%;
+		
+}
 
+footer {
+	
+	height: 160px;
+}
 	
 	
 	
@@ -255,15 +307,13 @@ margin-top: 0;
 
 
 
-.color{
-	color: #ffd08f;
-}
+
 
 p {
 	margin-top: 0;
 	
 	line-height: 1.7;
-	padding: 20px 25px 0 25px;
+	padding: 20px 25px 0 5%;
 	font-size: 0.9em;
 	
 }
@@ -276,7 +326,7 @@ p {
 }
 
 .unit-s p {
-	background: #ffd08f;
+	
 	
 }
 
@@ -297,21 +347,20 @@ display: block;
 
 @media only screen and (min-width: 38em) and (max-width: 60em) {
 	
+	img.flex-img {
+	width: 150%;
 		
+}	
 	
 .unit-m {
 	width: 100%;
 }
 
 
-.color{
-	color: #ffd08f;
-	
-}
 
 
 .box {
-	
+	overflow: hidden;
 	margin-top: -53px;
 	
 	
@@ -320,7 +369,7 @@ display: block;
 .unit-m-1{
 	margin-left: 238px;
 	display: inline-block;
-	background: #ffd08f;
+	background: #ffc58f;
 }
 
 
@@ -350,6 +399,36 @@ h1.headerWalruse {
 	
 	
 }
+footer {
+	clear: both;
+	height: 140px;
+	padding-bottom: 30px;
+}
+
+
+
+.copyright {
+	padding-top: 0;
+	padding-left: 0;
+	
+	
+}
+.socialMedia {
+	
+	margin-left: 238px;
+	margin-top: 0;
+	
+}
+.socialMedia li {
+	
+	overflow: hidden;
+	
+	
+}
+
+
+
+
 
 
 /*ECOSYSTEM*/
@@ -453,7 +532,6 @@ margin-top: 0;
 }
 @media only screen and (min-width: 60em) {
 
-	
 
 p {
 	
@@ -461,15 +539,11 @@ p {
 }
 	
 
-.color {
-	color: #ffd08f;
-	
-}
 
 .unit-l-1 {
-	margin-left: 249px;
+	margin-left: 279px;
 	display: inline-block;
-	background: #ffd08f;
+	background: #ffc58f;
 }
 
 .unit-l-1 p {
@@ -485,7 +559,7 @@ p {
 
 
 h1 {
-	margin-left: 30px;
+	margin-left: 60px;
 	
 }
 
@@ -520,13 +594,21 @@ h1 {
 	display: inline;
 
 }
-h1.headerWalruse {
-	margin-top: -59px;
-	margin-left: 250px;
-	
-	
+
+
+.socialMedia {
+	padding-left: 40px;
+	margin-left: 0;
 	
 }
+
+footer {
+	height: 115px;
+	margin-left: 279px;
+	background: #ffc58f;
+	border-top: solid #F96 1px;
+}
+
 
 
 
@@ -609,6 +691,72 @@ padding: 20px 20px 0 0;
 /*end of Ecosystem*/
 
 
+
+
+/*Walruses*/
+
+
+
+
+
+h1.headerWalruse {
+	margin-top: -59px;
+	margin-left: 409px;
+	
+	
+	
+}
+
+.unit-Wl {
+	width: 50%;
+	display: inline-block;
+	
+}
+	.unit-Wl-2 {
+	width: 25%;
+	display: inline-block;
+	}
+.unit-Wl-1 {
+	width: 50%;
+	display: inline-block;
+	background: #ffc58f;
+	margin-top: 0;
+}
+.unit-Wl-1 p{
+	color: white;
+	
+	padding: 120px 20px 120px 20px;
+	
+	width: 90%;
+	font-size: 2em;
+	line-height: 0.9;
+	text-transform: uppercase;
+	margin: 0 auto;
+	
+	
+}
+.Wbox {
+	width: 80%;
+	background: #ffc58f;
+	margin: 0 auto;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of Walruses*/
 
 }
 
