@@ -54,41 +54,84 @@ body {
 }
 
 
-
-
-.socialMedia {
+.skiplinks {
+	margin:0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
 	
-	margin-left: 10%;
-	margin-top: 0;
 	
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style-type: none;
 }
 
-.socialMedia li {
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em 1em;
+	position: absolute;
+	top: -10em;
 	
-	display: inline;
+	background-color: #000;
 	
-	
+	color: white;
+	text-decoration: none;
 }
 
-.socialMedia img{
-	display: inline;
-	width: 40px;
-	height: 40px;
-	margin-right: 20px;
-	
-	
+
+.skiplinks a:focus  {
+	top: 0;
 }
+
+
 footer {
-	background: #ebebeb;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
 	width: 100%;
 	height: 80px;
 }
 .copyright {
-	padding-top: 10px;
-	padding-left: 0;
-	display: inline-block;
+	padding-top: 20px;
+	padding-right: 12.5%;
+	float: right;
+	
 	
 }
+footer a:link {
+	font-weight: bold;
+	padding-left: 35px;
+	font-size: 1.2em;
+	color: black;
+}
+
+footer a {
+	
+	color: black;
+}
+
+
+footer a:hover {
+
+	color: black;
+	text-decoration:underline;
+}
+
+
+a:focus {
+	outline: 2px solid #000;
+	
+}
+
+
+
+
+
+
+
+
 
 h1 {
 		
@@ -111,16 +154,20 @@ h1 {
 	display: block;
 	width: 100%;
 }
+.flex-img1 {
+	display: block;
+	width: 50%;
+	margin: auto;
+	
+}
+
 
 
 .grid {
 	overflow: hidden;
 	display: block;
 	
-	margin-top: -57px;
-}
-.flex-img1 {
-	width: 100%;
+	
 }
 	
 	
@@ -145,14 +192,10 @@ html {
 }
 
 
-img.flex-img {
-	width: 240%;
-		
-}
 
 
 h1 {
-	background: #ffc58f;
+	/*background: #ffc58f;*/
 	color:#fff;
 	margin-top: -22px;
 	font-size: 1.6em;
@@ -197,14 +240,16 @@ h2 {
 	
 .boxEcosystem {
 	width: 100%;
-	clear: both;
+	
 	margin-top: -5px;
+	overflow: hidden;
+	background:  #d4e9ff;
 	
 }
 
 .boxEcosystem .unit-s {
 	margin-left: 0;
-	background: #c2d7ff;
+	background:  #d4e9ff;
 }
 
 
@@ -212,13 +257,14 @@ h2 {
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 0;
-	background: #c2d7ff;
+	
 }
 
 
 
 .ecosystem {
-	background: #ebebeb;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
 	overflow: hidden;
 	width: 90%;
 	margin: 0 auto;
@@ -227,8 +273,8 @@ h2 {
 }
 
 .colorEcosystem{
-	margin-left: 5%;
-	color: #c2d7ff;
+	
+    color: #d4e9ff;
 	margin-top: -100px;
 }
 
@@ -236,14 +282,14 @@ h2 {
 	
 	width: 100%;
 	display: block;
-	background: #c2d7ff;
+	
 	
 
 }
 .unit-2s p {
 	padding: 20px;
 	margin-top: 0;
-	background: #c2d7ff;
+	
 }
 .unit-2s h2 {
 	padding: 20px 20px 0 20px;
@@ -251,6 +297,11 @@ h2 {
 }
 .unit-2s img {
 	width: 100%;
+}
+.flex-img2 {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 30px;
 }
 
 .quote  {
@@ -279,6 +330,210 @@ margin-top: 0;
 
 
 
+
+
+/*Walruses*/
+
+h2 {
+	margin-top: 0;
+	padding-left: 0;
+	font-weight:lighter;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+	
+
+
+.ecosystem1 {
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
+	overflow: hidden;
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 0;
+	
+}
+.ecosystem1 .unit-2l-3 {
+	width: 100%;
+}
+
+.ecosystem1 .unit-2l-3 p {
+	line-height: 1.6;
+	padding: 0 20px;
+}
+
+
+.grid {
+	width: 100%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+.unit-Wl {
+	width: 100%;
+	display: block;
+	background: #ffdbba;
+	
+	
+}
+.unit-spacer1 {
+	
+	padding: 0  0;
+}
+	
+	
+	
+	
+.unit-Wl img{
+width:100%;
+
+
+}
+
+
+	
+.unit-Wl p{
+	color: #999;
+	padding: 0 12.5% 0 35px;
+	width: 60%;
+	display: none;
+	float: none;
+	margin-left: 7.5%;
+	font-size: 1.6em;
+	line-height: 0.9;
+	text-transform: uppercase;
+	
+	
+}
+
+
+.unit-Wl-1 {
+	width: 100%;
+	display: block;
+	background: #ffdbba;
+	margin: 0 auto;
+	
+	
+}
+.unit-Wl-1 img{
+width: 100%;
+padding: 30px 0;
+}
+
+	
+.unit-Wl-1 p{
+	padding: 25px 20px;
+	float: left;
+	width: 100%;
+	margin-bottom: 0;
+	display: inline-block;
+	
+	line-height: 1.5;
+ 	font-size: 100%;
+	
+	
+	
+}
+
+h1.headerWalruse {
+	
+
+	color: #ffdbba;
+	text-align: left;
+	margin-top: -58px;
+	margin-bottom: -3px;
+	
+	
+}
+
+
+
+.unit-Wl-2 {
+	width: 100%;
+	display: block;
+	background: #e3f1ff;
+	margin: 0 auto;
+	padding: 35px 20px;
+	
+	border-bottom: 1px solid #ccc;
+	
+	
+}
+.unit-Wl-2 img{
+width: 100%;
+margin-top: 35px;
+display: block;
+}
+
+figcaption {
+	font-size: 0.8em;
+	padding-top: 10px;
+}
+figure {
+	margin-top: 0;
+	padding-top: 0;
+}
+	
+.unit-Wl-2 p{
+	padding: 0 0;
+	
+	width: 90%;
+	
+	display: inline;
+	
+	line-height: 1.6;
+ 	font-size: 100%;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+	
+
+
+/*End of Walruses*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width:23em) and (max-width: 38em) {
 	
 	
@@ -287,14 +542,14 @@ margin-top: 0;
 	h1 {
 		font-size: 2.2em;
 		margin-top: -30px;
-		padding-left: 25px;
+		padding-left: 5%;
 }
 	
 	
-img.flex-img {
+/*img.flex-img {
 	width: 140%;
 		
-}
+}*/
 
 footer {
 	
@@ -333,7 +588,7 @@ p {
 
 h1.headerWalruse {
 font-size: 2.3em;
-margin-top: -35px;
+margin-top: -34px;
 display: block;
 
 
@@ -348,7 +603,7 @@ display: block;
 @media only screen and (min-width: 38em) and (max-width: 60em) {
 	
 	img.flex-img {
-	width: 150%;
+	width: 100%;
 		
 }	
 	
@@ -361,7 +616,7 @@ display: block;
 
 .box {
 	overflow: hidden;
-	margin-top: -53px;
+	margin-top: 0;
 	
 	
 }
@@ -381,15 +636,17 @@ display: block;
 	height: 100%;
  	padding-left: 30px;
  	padding-right: 30px;
-	padding-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
  
  
 }
 
 	
 h1 {
-		
-	padding-left: 20px;
+	font-size: 3.3em;	
+	padding-left: 8%;
+	margin-bottom: -10px;
 }
 
 h1.headerWalruse {
@@ -407,21 +664,12 @@ footer {
 
 
 
-.copyright {
-	padding-top: 0;
-	padding-left: 0;
-	
-	
-}
-.socialMedia {
-	
-	margin-left: 238px;
+p.copyright {
+	padding-top: 5%;
+	padding-right: 10%;
 	margin-top: 0;
-	
-}
-.socialMedia li {
-	
-	overflow: hidden;
+	margin-bottom: 0;
+	float: right;
 	
 	
 }
@@ -444,26 +692,35 @@ h2 {
 	
 .boxEcosystem {
 	width: 100%;
-	margin-top: -53px;
+	margin-top: 0;
 	
 }
 
 .boxEcosystem .unit-l-1 {
 	margin-left: 0;
-	background: #c2d7ff;
+	background: #d4e9ff;
 }
 
 
 .boxEcosystem p {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	margin-bottom: 0;
+	
+}
+.boxEcosystem h2 {
+	
+	margin-left: 7.5%;
+	margin-bottom: 0;
+	padding-top: 5%;
+	
 }
 
 
 
 .ecosystem {
-	background: #ebebeb;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
@@ -474,8 +731,8 @@ h2 {
 }
 
 .colorEcosystem{
-	margin-left: 10%;
-	color: #c2d7ff;
+	margin-left: 3%;
+	color: #d4e9ff;
 	font-size: 3.2rem;
 }
 
@@ -495,7 +752,7 @@ h2 {
 	margin-top: 0
 }
 .unit-2m-2 h2, .unit-2m h2 {
-	padding: 20px 20px 0 20px;
+	padding: 30px 20px 20px 35px;
 	margin-bottom: 0;
 }
 .unit-2m {
@@ -507,7 +764,7 @@ h2 {
 	background: #ccc;
 	color: #fff;
 	width: 100%;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 0.9;
 	text-transform: uppercase;
 	text-align: right;
@@ -515,7 +772,7 @@ h2 {
 	
 }
 .quote p  {
-margin-left: 40%;
+margin-left: 20%;
 margin-bottom: 0;
 padding: 20px 20px 0 0;
 margin-top: 0;
@@ -524,6 +781,204 @@ margin-top: 0;
 
 
 /*end of Ecosystem*/
+
+
+
+
+
+/*Walruses*/
+
+h2 {
+	margin-top: 0;
+	padding-left: 35px;
+	font-weight:lighter;
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+	
+
+
+.ecosystem1 {
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
+	overflow: hidden;
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: 0;
+	
+}
+.ecosystem1 .unit-2l-3 {
+	width: 50%;
+}
+
+.ecosystem1 .unit-2l-3 p {
+	line-height: 1.6;
+	padding: 0 35px;
+}
+
+
+.grid {
+	width: 100%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+.unit-Wl {
+	width: 100%;
+	display: block;
+	background: #ffdbba;
+	
+	
+}
+.unit-spacer1 {
+	
+	padding: 0 7.5%;
+}
+	
+	
+	
+	
+.unit-Wl img{
+width:100%;
+
+
+}
+.flex-img2 {
+	width: 40%;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+
+
+	
+.unit-Wl p{
+	color: #999;
+	padding: 0 12.5% 0 35px;
+	width: 60%;
+	display: none;
+	float: none;
+	margin-left: 7.5%;
+	font-size: 1.6em;
+	line-height: 0.9;
+	text-transform: uppercase;
+	
+	
+}
+
+
+.unit-Wl-1 {
+	width: 100%;
+	display: block;
+	background: #ffdbba;
+	margin: 0 auto;
+	
+	
+}
+.unit-Wl-1 img{
+width: 100%;
+padding: 50px 100px;
+}
+
+	
+.unit-Wl-1 p{
+	padding: 25px 35px;
+	float: left;
+	width: 100%;
+	margin-bottom: 0;
+	display: inline-block;
+	
+	line-height: 1.5;
+ 	font-size: 100%;
+	
+	
+	
+}
+
+h1.headerWalruse {
+	width: 56.2%;
+	margin-left: 4%;
+	color: #ffdbba;
+	text-align: left;
+	margin-top: -60px;
+	margin-bottom: -10px;
+	
+	
+}
+
+
+
+.unit-Wl-2 {
+	width: 100%;
+	display: block;
+	background: #e3f1ff;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #ccc;
+	
+	
+}
+.unit-Wl-2 img{
+width: 30%;
+
+display: inline;
+}
+
+figcaption {
+	font-size: 0.8em;
+	padding-top: 0;
+}
+figure {
+	margin-top: 0;
+	padding-top: 0;
+}
+	
+.unit-Wl-2 p{
+	padding: 0 25px 35px 35px;
+	float: left;
+	width: 63.5%;
+	
+	display: inline;
+	
+	line-height: 1.6;
+ 	font-size: 100%;
+	
+	
+	
+}
+
+
+
+
+
+
+	
+
+
+/*End of Walruses*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -547,12 +1002,13 @@ p {
 }
 
 .unit-l-1 p {
- 	width: 90%;
+ 	width: 85%;
  	line-height: 1.7;
  	font-size: 120%;
 	
 	height: 100%;
  	padding-left: 25px;
+	padding-right: 25px;
 }
 
 
@@ -597,16 +1053,20 @@ h1 {
 
 
 .socialMedia {
-	padding-left: 40px;
+	padding-left: 12.5%;
 	margin-left: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	
 }
 
 footer {
 	height: 115px;
-	margin-left: 279px;
-	background: #ffc58f;
-	border-top: solid #F96 1px;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
+	
+	
+	overflow: hidden;
 }
 
 
@@ -620,31 +1080,45 @@ footer {
 	
 h2 {
 	margin-top: 0;
+	padding-left: 0;
+	font-weight:lighter;
+	text-transform: uppercase;
+	font-size: 1.3em;
 }
-	
+
 	
 .boxEcosystem {
 	width: 100%;
 	margin-top: -53px;
+	overflow: hidden;
+	 
 	
 }
 
 .boxEcosystem .unit-l-1 {
 	margin-left: 0;
-	background: #c2d7ff;
+	background: #d4e9ff;
 }
 
 
 .boxEcosystem p {
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 
+p.eco{
+	width: 77.5%;
+	margin: 0 auto;
+	padding: 0 0;
+	margin-bottom: 20px;
+}
+
 
 .ecosystem {
-	background: #ebebeb;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
@@ -654,8 +1128,8 @@ h2 {
 }
 
 .colorEcosystem{
-	margin-left: 10%;
-	color: #c2d7ff;
+	margin-left: 7%;
+	color: #d4e9ff;
 }
 
 .unit-2l-3{
@@ -682,7 +1156,7 @@ h2 {
 .quote p  {
 margin-left: 40%;
 margin-bottom: 0;
-padding: 20px 20px 0 0;
+padding: 30px 20px 0 0;
 
 }
 
@@ -695,59 +1169,237 @@ padding: 20px 20px 0 0;
 
 /*Walruses*/
 
-
-
-
-
-h1.headerWalruse {
-	margin-top: -59px;
-	margin-left: 409px;
+.ecosystem1 {
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top: -43px;
+	padding-bottom: 50px;
 	
+}
+.ecosystem1 .unit-2l-3 {
+	width: 50%;
 	
+}
+
+.ecosystem1 .unit-2l-3 p {
+	line-height: 1.6;
+	padding: 0 35px;
+}
+
+.unit-2l-3 a {
+	padding-left: 35px;
+	color: black;
+	display: block;
+	font-weight: bold;
 	
+}
+
+.unit-2l-3 a:hover {
+
+	color: black;
+	text-decoration:underline;
+}
+.box a{
+	color: black;
+	
+}
+.box a:link {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.box a:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+
+ol {
+	margin-bottom: 0;
+}
+.grid {
+	width: 100%;
+	margin: 0 auto;
+	
+	overflow: hidden;
 }
 
 .unit-Wl {
-	width: 50%;
-	display: inline-block;
+	width: 100%;
+	display: block;
+		background: #ffdbba;
+	
 	
 }
-	.unit-Wl-2 {
-	width: 25%;
-	display: inline-block;
-	}
-.unit-Wl-1 {
-	width: 50%;
-	display: inline-block;
-	background: #ffc58f;
-	margin-top: 0;
+.unit-spacer1 {
+	
+	padding-left: 12.5%;
 }
-.unit-Wl-1 p{
-	color: white;
 	
-	padding: 120px 20px 120px 20px;
 	
-	width: 90%;
-	font-size: 2em;
+	
+	
+.unit-Wl img{
+width:54.2%;
+float: left;
+}
+
+
+	
+.unit-Wl p{
+	color: #999;
+	padding: 35px 12.5% 0 35px;
+	width: 40%;
+	
+	float: right;
+	
+	font-size: 1.8em;
 	line-height: 0.9;
 	text-transform: uppercase;
+	
+	
+}
+.boxEcosystem h2 {
+	
+	margin-left: 9%;
+	
+	
+	
+}
+.walrush2 {
+	
+	padding-left: 35px;
+}
+	
+.boxEcosystem h2.walrush2	{
+	padding-left: 70px;
+}
+
+@media only screen and (min-width: 59em) and (max-width: 75em){
+
+.unit-Wl p{
+font-size: 1.5em;
+}
+}
+
+.unit-Wl-1 {
+	width: 100%;
+	display: block;
+		background: #ffdbba;
 	margin: 0 auto;
 	
 	
 }
-.Wbox {
-	width: 80%;
-	background: #ffc58f;
-	margin: 0 auto;
+.unit-Wl-1 img{
+width: 36.5%;
+float: right;
+display:inline-block;
 }
+
+
+	
+.unit-Wl-1 p{
+	padding: 25px 35px;
+	float: left;
+	width: 63.5%;
+	margin-bottom: 0;
+	display: inline-block;
+	
+	line-height: 1.6;
+ 	font-size: 110%;
+	
+	
+	
+}
+
+h1.headerWalruse {
+	font-size: 3.3em;
+	margin-left: 14.5%;
+	color: #ffdbba;
+	text-align: left;
+	margin-top: -45px;
+	
 	
 }
 
 
 
+.unit-Wl-2 {
+	width: 100%;
+	display: inline-block;
+	background: #d4e9ff;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #ccc;
+	
+	
+}
 
 
+figcaption {
+	font-size: 0.8em;
+	padding-top: 8px;
+	
+	
+}
+figure {
+	margin-top: 0;
+	margin-left:3%;
+	margin-right:0;
+	padding-top: 0;
+	width: 30%;
+	display: inline-block;
+	border: solid white 10px;
+	
+	
+	background: white;
+	margin-bottom: 20px;
 
+	
+}
+
+.diet li{
+	list-style:inside;
+	padding-left: 35px;
+	padding-bottom: 15px;
+	font-size: 90%;
+	
+}
+a:link {
+	text-decoration:none;
+	color: black;
+	font-size: 90%;
+	display: inline;
+	}
+a:visited {text-decoration:none;}
+a:hover {
+	color: blue;
+	text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+
+.unit-Wl-2 img{
+width: 100%;
+display: inline-block;
+}
+	
+.unit-Wl-2 p{
+	padding: 0 25px 35px 35px;
+	float: left;
+	width: 63.5%;
+	
+	display: inline;
+	
+	line-height: 1.6;
+ 	font-size: 100%;
+	
+	
+	
+}
 
 
 
