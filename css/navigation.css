@@ -144,10 +144,11 @@ ol {
 }
 
 		  
-.nav a.selected {
-	color: white;
+	
+.nav a.current {
+	color: black;
+	text-decoration: underline;
 }
-
 
 
 
