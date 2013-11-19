@@ -87,6 +87,61 @@ body {
 }
 
 
+h3 {
+	margin: -10%  0 7% 50%;
+	
+}
+footer{
+	clear: both;
+}
+
+.background {
+	height: 80%;
+	background-image: url(../img/background3.png);
+	background-repeat:repeat;
+}
+.new {
+	width: 100%;
+	overflow: hidden;
+}
+.background p {
+	margin: -6%  0 7% 50%;
+	
+	
+}
+h4 {
+	font-size: 4em;
+	margin-top: -8%;
+	margin-bottom: 0;
+	margin-left: 14%;
+	 color: rgba(255, 255, 255, 0.9);
+}
+	
+@media only screen and (max-width: 38em) {
+	.new {
+	width: 120%;
+	position: center;
+	
+	
+	}
+	
+	h3 {
+	margin: 0  0;
+	width: 60%;
+	margin: 0 auto;
+	
+}
+	
+	
+	}
+
+
+
+
+
+
+
+
 <!--links-->
 .unit-2l-3 a {
 	
