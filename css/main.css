@@ -2,6 +2,7 @@
 
 ---
 
+{% include css/normalize.css %}
 {% include css/general.css %}
 {% include css/navigation.css %}
 

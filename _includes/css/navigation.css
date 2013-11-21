@@ -213,3 +213,77 @@ ol {
 
 
 }
+
+
+@media only screen and (max-width: 768px) {
+.nav-bottom {
+	font-size: 0.8em;
+	padding-top: 15px;
+	overflow: hidden;
+	width: 100%;
+	padding-right: 5%;
+	
+}
+.nav-bottom li {
+	padding-bottom: 15px;
+		background: none;
+		
+		
+	
+}
+.nav-bottom a {
+	background: none;
+	border: none;
+	padding: 0;
+	
+	
+	
+}
+.nav-bottom a.current {
+text-decoration: underline;
+}
+footer {
+	height: 630px;
+	padding-top: 10px;
+}
+
+.nav-bottom ul {
+	margin: 0 0;
+	
+}
+@media only screen and (min-width: 470px) {
+.nav-bottom ul {
+	width: 50%;
+	display: inline;
+	
+}
+.left{
+width: 20%;
+display: inline;	
+float: left;
+}
+.right{
+width: 80%;
+display: inline;	
+float: right;
+
+}
+
+.copyright {
+	padding-right: 5%;
+
+
+
+
+}
+}
+
+}
+@media only screen and (min-width: 769px) {
+.nav-bottom {
+	display: none;
+}
+
+
+
+}
