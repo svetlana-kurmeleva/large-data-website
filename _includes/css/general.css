@@ -1,7 +1,9 @@
 html {
 	font: normal,100%/1.6;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+
 	
 
 }
@@ -38,9 +40,6 @@ body {
 
 
 
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
 
 .wrapper {
 	max-width:100%;
@@ -50,9 +49,19 @@ body {
 
 /*---------------------------layout-------------------*/
 
-
-
-
+/*.unit {
+position: relative;
+}
+h1 {
+	
+bottom: 0;
+	left: 0;
+	padding: 0.5rem;
+	position: absolute;
+	right: 0;
+	color: white;
+	background-color: rgba(0,0,0,0.5)
+}*/
 
 .navbar {
 	margin-bottom: 0;
@@ -377,7 +386,7 @@ h1 {
 		
 }
 .box {
-	background: #d4e9ff;
+	background: #ffdbba;
 	width: 100%;
 	margin: 0 auto;
 	margin-top: -5px;
@@ -802,7 +811,7 @@ display: block;
 .unit-m-1{
 	
 	display: inline-block;
-	background: #d4e9ff;
+	background: #ffdbba;
 }
 
 
@@ -1192,7 +1201,7 @@ p {
 .unit-l-1 {
 	
 	display: inline-block;
-	background: #d4e9ff;
+	background: #ffdbba;
 }
 
 .unit-l-1 p {
