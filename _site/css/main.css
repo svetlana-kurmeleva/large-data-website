@@ -408,9 +408,8 @@ table {
 html {
 	font: normal,100%/1.6;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-
-
+	height: 100%;
+	
 	
 
 }
@@ -456,12 +455,12 @@ body {
 
 /*---------------------------layout-------------------*/
 
-/*.unit {
+/*.box {
 position: relative;
 }
 h1 {
 	
-bottom: 0;
+top: 200px;
 	left: 0;
 	padding: 0.5rem;
 	position: absolute;
@@ -470,17 +469,12 @@ bottom: 0;
 	background-color: rgba(0,0,0,0.5)
 }*/
 
-.navbar {
-	margin-bottom: 0;
-}
 
 
 
 
 
-
-
-
+/*---------------------------SKIPLINKS-------------------*/
 
 .skiplinks {
 	margin:0;
@@ -514,6 +508,10 @@ bottom: 0;
 	top: 0;
 }
 
+/*---------------------------SKIPLINKS END-------------------*/
+
+
+
 
 h3 {
 	margin: -17%  0 7% 47%;
@@ -522,6 +520,7 @@ h3 {
 }
 footer{
 	clear: both;
+	width: 100%;
 }
 
 .background {
@@ -545,11 +544,28 @@ footer{
 }
 
  .unit-l{
-	background-color: #699DFF;
+	background-color: white;
 	
 }
 
 
+h1 {
+	margin-top:0;
+	margin-bottom:0;
+    padding-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #9DD0FF;
+	color: white;	
+	width: 100%;
+	text-transform: uppercase;
+	
+font-weight: 300;
+	
+		
+}
+
+	
 
 
 
@@ -612,7 +628,13 @@ h3 {
 	
 	
 }
-<!--links-->
+
+
+
+
+
+
+/*---------------------------LINKS-------------------*/
 .unit-2l-3 a {
 	
 	color: black;
@@ -626,15 +648,15 @@ h3 {
 	color: black;
 	text-decoration:underline;
 }
-.environment a, .box a{
+.environment a, a{
 	color: black;
 	
 }
-.environment a, .box a:link {
+.environment a,  a:link {
 	font-weight: bold;
-	font-size: 1.1em;
+	
 }
-.environment a, .box a:hover{
+.environment a, .box a:hover, .eco a:hover{
 	color: black;
 	text-decoration:underline;
 }
@@ -644,26 +666,26 @@ h3 {
 a:link {
 	text-decoration:none;
 	color: black;
-	
+	font-weight: bold;
 	display: inline;
 	}
 a:visited {text-decoration:none;}
 a:hover {
-	color:red;
+	color:black;
 	text-decoration:underline;}
 a:active {text-decoration:underline;}
 
 
 
 
-.box a{
+ a{
 	color: black;
 	
 }
-.box a:link {
-	font-weight: bold;
-	font-size: 1.1em;
-}
+ 
+
+
+/*---------------------------LINKS END------------------*/
 
 
 
@@ -673,15 +695,6 @@ a:active {text-decoration:underline;}
 
 
 
-
-
-
-footer {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
-	width: 100%;
-	
-}
 .copyright {
 	padding-top: 20px;
 	padding-right: 12.5%;
@@ -718,21 +731,6 @@ a:focus {
 
 
 
-h1 {
-		
-	color:white;
-	margin-top: -48px;
-	font-size: 4em;
-	width: 100%;
-	line-height: 1;
-	text-transform: uppercase;
-		
-}
-
-.color {
-	color: #d4e9ff;
-	
-}
 
 
 .flex-img {
@@ -756,7 +754,7 @@ h1 {
 }
 	
 	
-}
+
 
 
 nav ul {
@@ -764,39 +762,37 @@ nav ul {
 }
 
 .uppercase {
-	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: 300;
+	color: #699DFF;
 }
-
+.ecosystem {
+	
+	background: #eaeff7;
+}
 
 
 @media only screen and (max-width: 38em) {
-
-html {
-	background: #fff;
-}
 
 
 
 
 h1 {
 	
-	color:#fff;
-	margin-top: -22px;
-	font-size: 1.6em;
-	width: 100%;
-	line-height: 1;
-	text-transform: uppercase;
-	margin-bottom: -5px;
 	
-	margin-left: 5%;
-		
+	font-size: 25px;
 }
+
+.uppercase {
+	line-height: 1.3;
+}
+
+
 .box {
-	background: #ffdbba;
+	
 	width: 100%;
-	margin: 0 auto;
-	margin-top: -5px;
+	
+	
 	overflow: hidden;
 	padding-bottom: 20px;
 }
@@ -806,8 +802,18 @@ h1 {
 .unit-s p{
 	width: 90%;
 	margin:0 auto;
+	line-height: 1.5;
+font-size: 95%;
+font-weight: 200;
+
+margin: 0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+
 	
 }
+	
+
 
 
 /*ECOSYSTEM*/
@@ -825,16 +831,16 @@ h2 {
 	
 .boxEcosystem {
 	width: 100%;
-	
-	margin-top: -5px;
+	background: #f5f0f0;
+
 	overflow: hidden;
-	background:  #d4e9ff;
+	
 	
 }
 
 .boxEcosystem .unit-s {
 	margin-left: 0;
-	background:  #d4e9ff;
+	
 }
 
 
@@ -843,46 +849,52 @@ h2 {
 	margin: 0 auto;
 	margin-bottom: 0;
 	
+	
+	
+	
 }
 
 
 
 .ecosystem {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
+	
 	overflow: hidden;
-	width: 90%;
-	margin: 0 auto;
-	
-	
-}
-
-.colorEcosystem{
-	
-    color: #d4e9ff;
-	margin-top: -100px;
-}
-
-.unit-2s{
-	
 	width: 100%;
-	display: block;
 	
 	
+	
+	
+	
+}
 
-}
-.unit-2s p {
-	padding: 20px;
-	margin-top: 0;
+
+.ecosystem p{
+
+line-height: 1.5;
+font-size: 95%;
+font-weight: 200;
+padding-top: 15px;
+	
 	
 }
-.unit-2s h2 {
-	padding: 20px 20px 0 20px;
+
+
+
+.unit-s h2 {
+	padding: 20px 20px 0 8%;
 	margin-bottom: 0;
 }
-.unit-2s img {
+.unit-s img {
 	width: 100%;
 }
+
+.grid img {
+	width: 150%;
+}
+
+
+
 .flex-img2 {
 	width: 50%;
 	margin-left: 25%;
@@ -894,9 +906,8 @@ h2 {
 	color: #fff;
 	width: 100%;
 	font-size: 1.5em;
-	
-	text-transform: uppercase;
-	text-align: right;
+	padding-left: 8%;
+	text-align: left;
 	
 	
 }
@@ -930,23 +941,42 @@ h2 {
 
 
 .ecosystem1 {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
 	overflow: hidden;
 	width: 85%;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	
 	margin-top: 0;
 	
 }
-.ecosystem1 .unit-2l-3 {
+.ecosystem1 .unit-2s {
 	width: 100%;
+	padding-top: 30px;
+	
 }
 
-.ecosystem1 .unit-2l-3 p {
+.ecosystem1 .unit-2s p {
 	line-height: 1.6;
 	padding: 0 20px;
 }
+.ecosystem1 .unit-2s h2{
+	padding-left: 5%;
+}
+.diet {
+	width: 90%;
+	margin: 0 auto;
+}
+.diet li {
+list-style: inside;
+
+padding-bottom: 15px;
+font-size: 90%;
+}
+.unit-2s p {
+	font-size: 95%;
+	line-height: 1.4;
+}
+
 
 
 .grid {
@@ -956,13 +986,7 @@ h2 {
 	overflow: hidden;
 }
 
-.unit-Wl {
-	width: 100%;
-	display: block;
-	background: #ffdbba;
-	
-	
-}
+
 .unit-spacer1 {
 	
 	padding: 0  0;
@@ -988,31 +1012,30 @@ width:100%;
 	margin-left: 7.5%;
 	font-size: 1.6em;
 	line-height: 0.9;
-	text-transform: uppercase;
 	
 	
 }
 
 
-.unit-Wl-1 {
+.unit-Ws {
 	width: 100%;
 	display: block;
-	background: #ffdbba;
+	
 	margin: 0 auto;
 	
 	
 }
-.unit-Wl-1 img{
+.unit-Ws img{
 width: 100%;
-padding: 30px 0;
+padding: 0 0 0 0;
 }
 
 	
-.unit-Wl-1 p{
-	padding: 25px 20px;
-	float: left;
+.unit-Ws p{
+	
+	
 	width: 100%;
-	margin-bottom: 0;
+	margin-bottom: 30px;
 	display: inline-block;
 	
 	line-height: 1.5;
@@ -1022,15 +1045,8 @@ padding: 30px 0;
 	
 }
 
-h1.headerWalruse {
-	
-
-	color: #ffdbba;
-	text-align: left;
-	margin-top: -58px;
-	margin-bottom: -3px;
-	
-	
+h1.subhead {
+	padding-left: 7.5%;
 }
 
 
@@ -1038,7 +1054,7 @@ h1.headerWalruse {
 .unit-Wl-2 {
 	width: 100%;
 	display: block;
-	background: #e3f1ff;
+	background: #f5f0f0;
 	margin: 0 auto;
 	padding: 35px 20px;
 	
@@ -1103,11 +1119,6 @@ figure {
 	width: 100%;
 }
 
-.unit-2s {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
-}
-
 
 
 
@@ -1134,9 +1145,10 @@ figure {
 	
 	
 	h1 {
-		font-size: 2.2em;
-		margin-top: -30px;
-		padding-left: 5%;
+		font-size: 1.6em;
+		
+
+		padding-left: 10%;
 }
 	
 	
@@ -1144,11 +1156,10 @@ figure {
 	width: 140%;
 		
 }*/
-
-footer {
-	
-	height: 160px;
+.quote p{
+	width: 80%;
 }
+
 	
 	
 	
@@ -1162,10 +1173,15 @@ p {
 	margin-top: 0;
 	
 	line-height: 1.7;
-	padding: 20px 25px 0 5%;
-	font-size: 0.9em;
-	
+	padding: 20px 3% 0 3%;
+	line-height: 1.7;
+font-size: 120%;
+font-weight: 200;
+
+padding-top: 40px;
 }
+	
+
 
 
 .unit-s {
@@ -1189,19 +1205,39 @@ display: block;
 	
 }
 
+
 }
 
 
 
 
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (min-width: 38em)  {
+
+
+.uppercase {
+	font-size: 30px;
+	
+}
+
+
+.subhead {
+	width: 100%;
+    color: #fff;
+	
+	padding-left: 12.5%;
+	padding-bottom: 0;
+	
+	margin-left: 0;
+	font-size: 2.2em;
+	
+}
 	
 	img.flex-img {
 	width: 100%;
 	
 }	
 	
-.unit-m {
+.grid img {
 	width: 100%;
 }
 
@@ -1215,41 +1251,22 @@ display: block;
 	
 }
 
-.unit-m-1{
-	
-	display: inline-block;
-	background: #ffdbba;
+.diet li {
+list-style: inside;
+
+padding-bottom: 15px;
+font-size: 90%;
 }
 
-
-.unit-m-1 p {
- 	
- 	line-height: 1.7;
- 	font-size: 110%;
- 	
-	height: 100%;
- 	padding-left: 238px;
- 	padding-right: 30px;
-	padding-top: 30px;
-	padding-bottom: 30px;
- 
- 
-}
 
 	
 h1 {
-	font-size: 3.3em;	
+	font-size: 2.5em;	
 	padding-left: 8%;
-	margin-bottom: -10px;
+	
 }
 
-h1.headerWalruse {
-	margin-top: -59px;
-	margin-left: 220px;
-	
-	
-	
-}
+
 footer {
 	clear: both;
 	height: 140px;
@@ -1260,7 +1277,7 @@ footer {
 
 p.copyright {
 	padding-top: 5%;
-	padding-right: 10%;
+	padding-right: 12.5%;
 	margin-top: 0;
 	margin-bottom: 0;
 	float: right;
@@ -1268,9 +1285,33 @@ p.copyright {
 	
 }
 
+ .unit-m-1 p {
+	 width: 75%;
+	 margin: 0 auto;
+	 padding-top: 60px;
+	 padding-bottom: 60px;
+	 
+ 	line-height: 1.5;
+ 	font-size: 110%;
+	font-weight: 200;
+ }
 
-
-
+.quote  {
+	background: #ccc;
+	color: #fff;
+	width: 100%;
+	font-size: 1.6em;
+	padding-left: 30%;
+	text-align: right;
+	
+	
+}
+.quote p  {
+line-height: 1.4rem;
+margin-bottom: 0;
+padding: 20px 2.5% 0 0;
+margin-top: 0;
+}
 
 
 /*ECOSYSTEM*/
@@ -1287,19 +1328,21 @@ h2 {
 .boxEcosystem {
 	width: 100%;
 	margin-top: 0;
-	
+	overflow: hidden;
 }
 
-.boxEcosystem .unit-l-1 {
+.boxEcosystem .unit-m-1 {
 	margin-left: 0;
-	background: #d4e9ff;
+	background: #f5f0f0;
+	
 }
 
 
 .boxEcosystem p {
-	width: 85%;
+	width: 75%;
 	margin: 0 auto;
 	margin-bottom: 0;
+	
 	
 }
 .boxEcosystem h2 {
@@ -1313,22 +1356,17 @@ h2 {
 
 
 .ecosystem {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	
 	
 	
 }
 
-.colorEcosystem{
-	margin-left: 3%;
-	color: #d4e9ff;
-	font-size: 3.2rem;
-}
+
 
 .unit-2m-2{
 	
@@ -1336,41 +1374,33 @@ h2 {
 	display: inline-block;
 
 }
-.unit-2m-2 p {
-	padding: 20px;
-	margin-top: 0;
-}
 
-.unit-2m p {
-	padding: 20px;
-	margin-top: 0
-}
+
 .unit-2m-2 h2, .unit-2m h2 {
-	padding: 30px 20px 20px 35px;
+	padding: 30px 20px 30px 20px;
 	margin-bottom: 0;
+	
 }
 .unit-2m {
 	width: 100%;
 	
 }
-
-.quote  {
-	background: #ccc;
-	color: #fff;
-	width: 100%;
-	font-size: 1.8em;
-	line-height: 0.9;
+.unit-2m-2 h2 {
+	
+ 	
+	font-weight: 200;
 	text-transform: uppercase;
-	text-align: right;
-	
-	
+	font-size: 1.4em;
 }
-.quote p  {
-margin-left: 20%;
-margin-bottom: 0;
-padding: 20px 20px 0 0;
-margin-top: 0;
+
+.unit-2m-2 p {
+	padding: 0 20px 20px 20px;
+	font-weight: 300;
+	font-size: 1em;
+	line-height:1.6;
+	margin-top: 0;
 }
+
 
 
 
@@ -1385,20 +1415,19 @@ margin-top: 0;
 h2 {
 	margin-top: 0;
 	padding-left: 35px;
-	font-weight:lighter;
-	text-transform: uppercase;
+		text-transform: uppercase;
 	font-size: 1.3em;
+	font-weight: 200;
 }
 	
 
 
 .ecosystem1 {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
 	overflow: hidden;
-	width: 85%;
+	width: 75%;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	
 	margin-top: 0;
 	
 }
@@ -1408,9 +1437,11 @@ h2 {
 
 .ecosystem1 .unit-2l-3 p {
 	line-height: 1.6;
-	padding: 0 35px;
+	padding: 0 0 0 0;
 }
-
+.unit-2l-3 .unit-spacer {
+	padding-right: 25px;
+}
 
 .grid {
 	width: 100%;
@@ -1422,23 +1453,19 @@ h2 {
 .unit-Wl {
 	width: 100%;
 	display: block;
-	background: #ffdbba;
+	background-color: #9DD0FF;
 	
 	
 }
 .unit-spacer1 {
 	
-	padding: 0 7.5%;
+	padding: 0 12.5%;
 }
 	
 	
 	
 	
-.unit-Wl img{
-width:100%;
 
-
-}
 .flex-img2 {
 	width: 40%;
 	margin-left: 35px;
@@ -1457,29 +1484,31 @@ width:100%;
 	margin-left: 7.5%;
 	font-size: 1.6em;
 	line-height: 0.9;
-	text-transform: uppercase;
+	
 	
 	
 }
 
 
-.unit-Wl-1 {
+.unit-Wm1 {
 	width: 100%;
 	display: block;
-	background: #ffdbba;
-	margin: 0 auto;
+	
+	
 	
 	
 }
-.unit-Wl-1 img{
+.unit-Wm1 img{
 width: 100%;
-padding: 50px 100px;
+padding: 0 0 0 0;
+
 }
 
 	
-.unit-Wl-1 p{
-	padding: 25px 35px;
-	float: left;
+
+.unit-Wm p{
+	padding: 40px 0;
+	
 	width: 100%;
 	margin-bottom: 0;
 	display: inline-block;
@@ -1491,23 +1520,14 @@ padding: 50px 100px;
 	
 }
 
-h1.headerWalruse {
-	width: 56.2%;
-	margin-left: 4%;
-	color: #ffdbba;
-	text-align: left;
-	margin-top: -60px;
-	margin-bottom: -10px;
-	
-	
-}
+
 
 
 
 .unit-Wl-2 {
 	width: 100%;
 	display: block;
-	background: #e3f1ff;
+	background: #f5f0f0;
 	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -1576,10 +1596,10 @@ padding-left: 7.5%;
 padding-right: 7.5%;
 }
 
-.unit-2m {
+/*.unit-2m {
 background-image: url(../img/background3.png);
 	background-repeat:repeat;
-}
+}*/
 
 
 
@@ -1608,37 +1628,34 @@ p {
 .unit-l-1 {
 	
 	display: inline-block;
-	background: #ffdbba;
+	
 }
 
 .unit-l-1 p {
  	
- 	line-height: 1.7;
- 	font-size: 120%;
+ 	line-height: 1.4;
+ 	font-size: 140%;
+	font-weight: 200;
+ 	width: 65%;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+
+.uppercase {
+	font-size: 30px;
 	
-	height: 100%;
- 	padding-left: 234px;
-	padding-right: 10%;
 }
 
 
 
 
 h1 {
-	margin-left: 60px;
-	font-size: 3.5em;
+font-size: 40px;
 	
-}
-
-
-.color1 {
-	color:  #ffd08f;
-}
-
-.box {
 	
-	overflow: hidden;
-	margin-top: -46px;
 }
 
 
@@ -1669,14 +1686,15 @@ h1 {
 
 footer {
 	height: 115px;
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
 	
 	
 	overflow: hidden;
 }
 
-
+p.copyright {
+	padding-right: 12.5%;
+}
 
 
 /*ECOSYSTEM*/
@@ -1685,59 +1703,46 @@ footer {
 	float: left;
 }
 	
-h2 {
+.unit-2l-3 h2 {
 	margin-top: 0;
 	padding-left: 0;
-	font-weight:lighter;
+	padding-top: 0;
+	padding-bottom: 0;
+ 	
+	font-weight: 200;
 	text-transform: uppercase;
 	font-size: 1.3em;
 }
 
-	
+.unit-2l-3 p {
+	padding-left: 0;
+	padding-top: 25px;		
+	font-weight: normal;
+	font-size: 1em;
+	line-height:1.6;
+}
 .boxEcosystem {
 	width: 100%;
-	margin-top: -48px;
+	
 	overflow: hidden;
 	 
 	
 }
 
-.boxEcosystem .unit-l-1 {
-	margin-left: 0;
-	background: #d4e9ff;
-}
 
-
-.boxEcosystem p {
-	width: 75%;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-
-
-p.eco{
-	width: 77.5%;
-	margin: 0 auto;
-	padding: 0 0;
-	margin-bottom: 20px;
-}
 
 
 .ecosystem {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	background: #eaeff7;
+	
 	overflow: hidden;
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	
 	
 	
 }
 
-.colorEcosystem{
-	margin-left: 7%;
-	color: #d4e9ff;
-}
 
 .unit-2l-3{
 	
@@ -1753,17 +1758,19 @@ p.eco{
 	background: #ccc;
 	color: #fff;
 	width: 100%;
-	font-size: 2em;
-	line-height: 0.9;
-	text-transform: uppercase;
+	
+	
 	text-align: right;
+	
 	
 	
 }
 .quote p  {
-margin-left: 40%;
+margin-left: 30%;
 margin-bottom: 0;
-padding: 30px 20px 0 0;
+padding: 10% 10% 0 0;
+font-size: 1.3em;
+	line-height: 0.9em;
 
 }
 
@@ -1777,24 +1784,45 @@ padding: 30px 20px 0 0;
 /*Walruses*/
 
 .ecosystem1 {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	/*background-image: url(../img/background3.png);
+	background-repeat:repeat;*/
 	overflow: hidden;
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 50px;
-	margin-top: -43px;
-	padding-bottom: 50px;
+	
+	padding-bottom: 20px;
 	
 }
+
+
+.grid img {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+
+.info {
+padding-left: 10%;
+padding-right: 10%;
+width: 100%;
+overflow: hidden;
+}
+
 .ecosystem1 .unit-2l-3 {
 	width: 50%;
+	margin: 0 auto;
+	background: none;
+	
+	
 	
 }
 
 .ecosystem1 .unit-2l-3 p {
 	line-height: 1.6;
-	padding: 0 35px;
+	padding: 25px 0;
 }
 
 
@@ -1813,8 +1841,6 @@ ol {
 .unit-Wl {
 	width: 100%;
 	display: block;
-		background: #ffdbba;
-	
 	
 }
 .unit-spacer1 {
@@ -1822,29 +1848,28 @@ ol {
 	padding-left: 12.5%;
 }
 	
+.subhead {
+	width: 39%;
+    color: white;
+	padding-top: 130px;
+	padding-left: 3%;
+	display: inline;
+	float: right;
+	margin-left: 0;
+	font-size: 2.2em;
 	
+}
+		
 	
 	
 .unit-Wl img{
-width:54.2%;
+width:60%;
 float: left;
+display: inline;
+
 }
 
 
-	
-.unit-Wl p{
-	color: #999;
-	padding: 35px 12.5% 0 35px;
-	width: 40%;
-	
-	float: right;
-	
-	font-size: 1.8em;
-	line-height: 0.9;
-	text-transform: uppercase;
-	
-	
-}
 .boxEcosystem h2 {
 	
 	margin-left: 9%;
@@ -1853,8 +1878,10 @@ float: left;
 	
 }
 .walrush2 {
-	
-	padding-left: 35px;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	padding-left: 0;
 }
 	
 .boxEcosystem h2.walrush2	{
@@ -1868,11 +1895,11 @@ font-size: 1.5em;
 }
 }
 
-.unit-Wl-1 {
-	width: 100%;
+.ecosystem1 .unit-Wl-1 {
+	width: 75%;
 	display: block;
-		background: #ffdbba;
-	margin: 0 auto;
+		
+	margin-left: 12.5%;
 	
 	
 }
@@ -1880,41 +1907,36 @@ font-size: 1.5em;
 width: 36.5%;
 float: right;
 display:inline-block;
+padding-top: 120px;
 }
 
 
 	
 .unit-Wl-1 p{
-	padding: 25px 35px;
+	
 	float: left;
 	width: 63.5%;
 	margin-bottom: 0;
 	display: inline-block;
-	
+	padding-left: 0;
 	line-height: 1.6;
  	font-size: 110%;
-	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 35px;
 	
 	
 }
 
-h1.headerWalruse {
-	font-size: 3.3em;
-	margin-left: 14.5%;
-	color: #ffdbba;
-	text-align: left;
-	margin-top: -45px;
-	
-	
-}
 
 
 
 .unit-Wl-2 {
 	width: 100%;
 	display: inline-block;
-	background: #d4e9ff;
-	margin: 0 auto;
+	background: #f5f0f0;
+	padding-right: 10%;
+	padding-left: 10%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	border-bottom: 2px solid #ccc;
@@ -1931,13 +1953,12 @@ figcaption {
 }
 figure {
 	margin-top: 0;
-	margin-left:3%;
+	margin-left:0;
 	margin-right:0;
 	padding-top: 0;
-	width: 30%;
+	width: 25%;
 	display: inline-block;
 	border: solid white 10px;
-	
 	
 	background: white;
 	margin-bottom: 20px;
@@ -1955,12 +1976,12 @@ figure {
 a:link {
 	text-decoration:none;
 	color: black;
-	font-size: 90%;
+	
 	display: inline;
 	}
-a:visited {text-decoration:none;}
-a:hover {
-	color: blue;
+a:visited {text-decoration:underline;}
+.ecosystem a:hover {
+	color: black;
 	text-decoration:underline;}
 a:active {text-decoration:underline;}
 
@@ -1971,8 +1992,8 @@ display: inline-block;
 }
 	
 .unit-Wl-2 p{
-	padding: 0 25px 35px 35px;
-	float: left;
+	padding: 0  35px 50px 0;
+	
 	width: 63.5%;
 	
 	display: inline;
@@ -1997,21 +2018,7 @@ display: inline-block;
 
 /*Marine Mammals*/
 
-.ecosystem {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
-	overflow: hidden;
-	width: 75%;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	
-	
-}
 
-.colorEcosystem{
-	margin-left: 7%;
-	color: #d4e9ff;
-}
 
 .MMunit-2l-3{
 	
@@ -2035,12 +2042,6 @@ display: inline-block;
 	
 }
 
-.MMunit-2l-3 h2 {
-	margin-top: 10px;
-	width: 50%;
-	border-bottom: 1px solid black;
-	
-}
 
 
 .MMunit-2l-3 .unit-spacer {
@@ -2092,13 +2093,7 @@ ol {
 	overflow: hidden;
 }
 
-.unit-Wl {
-	width: 100%;
-	display: block;
-		background: #ffdbba;
-	
-	
-}
+
 .unit-spacer1 {
 	
 	padding-left: 12.5%;
@@ -2106,24 +2101,19 @@ ol {
 	
 	
 	
-	
-.unit-Wl img{
-width:54.2%;
-float: left;
-}
 
 
 	
 .unit-Wl p{
 	color: #999;
-	padding: 35px 12.5% 0 35px;
-	width: 40%;
-	
+	padding: 35px 12.5% 0 25px;
+	width: 38%;
+	display: inline;
 	float: right;
 	
 	font-size: 1.8em;
 	line-height: 0.9;
-	text-transform: uppercase;
+	
 	
 	
 }
@@ -2136,7 +2126,7 @@ float: left;
 }
 .walrush2 {
 	
-	padding-left: 35px;
+	padding-left: 0;
 }
 	
 .boxEcosystem h2.walrush2	{
@@ -2150,14 +2140,6 @@ font-size: 1.5em;
 }
 }
 
-.unit-Wl-1 {
-	width: 100%;
-	display: block;
-		background: #ffdbba;
-	margin: 0 auto;
-	
-	
-}
 
 .environment .unit-Wl-1 img{
 width: 50%;
@@ -2167,19 +2149,6 @@ display:inline-block;
 
 
 	
-.unit-Wl-1 p{
-	padding: 25px 35px;
-	float: left;
-	width: 63.5%;
-	margin-bottom: 0;
-	display: inline-block;
-	
-	line-height: 1.6;
- 	font-size: 110%;
-	
-	
-	
-}
 
 h1.mainHeader{
 	font-size: 2.5em;
@@ -2240,19 +2209,6 @@ width: 100%;
 display: inline-block;
 }
 	
-.unit-Wl-2 p{
-	padding: 0 25px 35px 35px;
-	float: left;
-	width: 63.5%;
-	
-	display: inline;
-	
-	line-height: 1.6;
- 	font-size: 100%;
-	
-	
-	
-}
 
 
 .unit-l img {
@@ -2298,24 +2254,24 @@ display: inline-block;
 @media only screen and (min-width: 100em) {
 	
 	html {
-		font-size: 150%;
+		font-size: 170%;
 	}
 	
 	h1 {
 	
-	margin-top: -82px;
-	margin-left: 70px;
+	
+	font-size: 3em;
 	
 	
 }
 	
+	.uppercase {
+		font-size: 170%;
+	}
 	
-	.box {
-	margin-top: -78px;
-	margin-left: 148px;
-	
-}
-	
+	.ecosystem p {
+		font-size: 120%;
+	}
 
 	
 }
