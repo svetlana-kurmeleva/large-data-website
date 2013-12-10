@@ -430,7 +430,7 @@ html {
 }
 body {
 	height: 100%;
-	background:#fff;
+	/*background:#fff;*/
 	max-width: 700px;
 	margin: 0 auto;
 	
@@ -514,7 +514,7 @@ top: 200px;
 
 
 h3 {
-	margin: -17%  0 7% 47%;
+	
 	font-size: 1.6em;
 	
 }
@@ -523,20 +523,7 @@ footer{
 	width: 100%;
 }
 
-.background {
-	height: 80%;
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
-}
-.new {
-	width: 100%;
-	overflow: hidden;
-}
-.background p {
-	margin: -6%  0 7% 50.5%;
-	
-	
-}
+
 
 .unit-l img {
 	min-height: 100px;
@@ -546,6 +533,14 @@ footer{
  .unit-l{
 	background-color: white;
 	
+}
+.background {
+	
+	background: #f5f0f0;
+	width: 100%;
+}
+.background img {
+	width: 100%;
 }
 
 
@@ -575,17 +570,12 @@ font-weight: 300;
 	
 	h3 {
 	
-	width: 60%;
-	margin: -17%  12.5% 7% 47%;
+	
+	
 	font-size: 1.3em;
 	
 }
-.background p {
-width: 60%;
-margin: -6%  0 7% 47%;
-	
-	
-	}
+
 	
 	
 	
@@ -596,14 +586,10 @@ margin: -6%  0 7% 47%;
 @media only screen and (max-width: 50em) {
 h3 {
 	
-	width: 40%;
+	
 	
 }
 
-
-.background p {
-width: 40%;
-}
 
 
 
@@ -613,14 +599,9 @@ width: 40%;
 	
 	
 
-.background p {
-width: 30%;
-
-
-
-}	
+	
 h3 {
-	margin-bottom: 0;
+	
 	font-size: 1em;
 }
 	
@@ -772,9 +753,96 @@ nav ul {
 }
 
 
+/*---------------------------404 page------------------*/
+
+
+/*.error-page img {
+	display: block;
+	width: 100%;
+}
+
+.error-page{
+	position: relative;
+	width: 100%;
+	background: #f5f0f0;
+}
+figure.error-page {
+	margin: 0 0;
+	border: none;
+}
+	
+	
+	
+	
+	
+	
+.error-page figcaption{
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	position: absolute;
+	right: 0;
+	
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.no-rgba figcaption {
+	background: #000;
+}*/
+
+
+.error-page {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 110%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	color: black;
+	
+}
+
+
+.background .unit-l {
+	background: #f5f0f0;
+}
+
+.error-page-message {
+	text-transform: none;
+}
+
+
+
+
+/*---------------------------404 page END------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 38em) {
 
-
+.background .unit-s img {
+	width: 150%;
+}
 
 
 h1 {
@@ -848,6 +916,7 @@ h2 {
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 0;
+	padding-bottom: 30px;
 	
 	
 	
@@ -879,7 +948,11 @@ padding-top: 15px;
 	
 }
 
-
+.info {
+	overflow: hidden;
+	width: 100%;
+	background: #eaeff7;
+}
 
 .unit-s h2 {
 	padding: 20px 20px 0 8%;
@@ -943,7 +1016,7 @@ h2 {
 .ecosystem1 {
 	
 	overflow: hidden;
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 	
 	margin-top: 0;
@@ -1047,6 +1120,7 @@ padding: 0 0 0 0;
 
 h1.subhead {
 	padding-left: 7.5%;
+	padding-bottom: 0;
 }
 
 
@@ -1080,12 +1154,12 @@ figure {
 .unit-Wl-2 p{
 	padding: 0 0;
 	
-	width: 90%;
+	width: 84%;
 	
 	display: inline;
 	
-	line-height: 1.6;
- 	font-size: 100%;
+	line-height: 1.5;
+ 	font-size: 95%;
 	
 	
 	
@@ -1196,14 +1270,6 @@ padding-top: 40px;
 }
 
 
-h1.headerWalruse {
-font-size: 2.3em;
-margin-top: -34px;
-display: block;
-
-
-	
-}
 
 
 }
@@ -1617,12 +1683,45 @@ background-image: url(../img/background3.png);
 }
 @media only screen and (min-width: 60em) {
 
+.error-page {
+	padding-left: 40%;
+	padding-right: 20%;
+	font-size: 1.7em;
+	padding-top: 2%;
+	padding-bottom: 8%;
+	color: black;
+	
+}
+
+
+.background .unit-l {
+	background: #f5f0f0;
+}
+
+.error-page-message {
+	text-transform: none;
+}
+
+
+
+
 
 p {
 	
 	margin-top: 0;
 }
 	
+
+
+
+
+
+
+
+
+
+
+
 
 
 .unit-l-1 {
@@ -1790,7 +1889,7 @@ font-size: 1.3em;
 	width: 100%;
 	margin: 0 auto;
 	
-	padding-bottom: 20px;
+	
 	
 }
 
@@ -1809,6 +1908,7 @@ padding-left: 10%;
 padding-right: 10%;
 width: 100%;
 overflow: hidden;
+background: #eaeff7;
 }
 
 .ecosystem1 .unit-2l-3 {
@@ -1887,6 +1987,12 @@ display: inline;
 .boxEcosystem h2.walrush2	{
 	padding-left: 70px;
 }
+
+.boxEcosystem .unit-l-1 p {
+	width: 65%;
+}
+
+
 
 @media only screen and (min-width: 59em) and (max-width: 75em){
 
@@ -1968,9 +2074,9 @@ figure {
 
 .diet li{
 	list-style:inside;
-	padding-left: 35px;
+	padding-left: 0;
 	padding-bottom: 15px;
-	font-size: 90%;
+	font-size: 100%;
 	
 }
 a:link {
@@ -2056,16 +2162,16 @@ display: inline-block;
 /*Survival or Extinction*/
 
 
-
+.environment .unit-Wl-1 p {
+	padding-left: 0;
+}
 
 .environment {
-	background-image: url(../img/background3.png);
-	background-repeat:repeat;
+	
 	overflow: hidden;
 	width: 75%;
 	margin: 0 auto;
-	margin-bottom: -10px;
-	margin-top: -43px;
+	
 	padding-bottom: 10px;
 	
 }
@@ -2094,11 +2200,6 @@ ol {
 }
 
 
-.unit-spacer1 {
-	
-	padding-left: 12.5%;
-}
-	
 	
 	
 
@@ -2164,12 +2265,12 @@ h1.mainHeader{
 .environment .unit-Wl-2 {
 	width: 100%;
 	display: inline-block;
-	background: #d4e9ff;
+	background: #eaeff7;
 	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	border-bottom: 2px solid #ccc;
-	margin-top: 43px;
+	
 	
 }
 
@@ -2198,9 +2299,9 @@ figure {
 
 .diet li{
 	list-style:inside;
-	padding-left: 35px;
+	padding-left: 0;
 	padding-bottom: 15px;
-	font-size: 90%;
+	font-size: 100%;
 	
 }
 
@@ -2284,7 +2385,7 @@ display: inline-block;
 
 a,
 a:hover {
-	text-decoration:none;
+	text-decoration:underline;
 }
 ul,
 ol {
