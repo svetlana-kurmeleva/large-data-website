@@ -545,6 +545,8 @@ padding-top: 15px;
 	overflow: hidden;
 	width: 100%;
 	background: #eaeff7;
+	padding-left:5%;
+	padding-right: 5%;
 }
 
 .unit-s h2 {
@@ -723,7 +725,7 @@ h1.subhead {
 	display: block;
 	background: #f5f0f0;
 	margin: 0 auto;
-	padding: 35px 20px;
+	padding: 35px 7.5%;
 	
 	border-bottom: 1px solid #ccc;
 	
@@ -887,7 +889,7 @@ padding-top: 40px;
 	padding-bottom: 0;
 	
 	margin-left: 0;
-	font-size: 2.2em;
+	
 	
 }
 	
@@ -1166,20 +1168,27 @@ padding: 0 0 0 0;
 	
 
 .unit-Wm p{
-	padding: 40px 0;
+	padding: 60px 35px;
 	
 	width: 100%;
 	margin-bottom: 0;
 	display: inline-block;
-	
+	margin-top: 0;
 	line-height: 1.5;
- 	font-size: 100%;
+ 	font-size: 110%;
+	font-weight: 200;
+	background: #f5f0f0;
 	
 	
 	
 }
 
-
+.info{
+	overflow: hidden;
+	background: #eaeff7;
+	width: 100%;
+	padding-left: 35px;
+}
 
 
 
@@ -1223,7 +1232,9 @@ figure {
 	
 }
 
-
+h2.walrush2 {
+	padding-left: 0;
+}
 
 
 
@@ -1297,15 +1308,15 @@ background-image: url(../img/background3.png);
 
 
 
-
+.unit-Wl-2 h2 {
+	padding-left: 0;
+}
 
 p {
 	
 	margin-top: 0;
 }
 	
-
-
 
 
 
@@ -1385,7 +1396,7 @@ footer {
 }
 
 p.copyright {
-	padding-right: 12.5%;
+	padding-right: 15%;
 }
 
 
@@ -1497,15 +1508,15 @@ font-size: 1.3em;
 
 
 .info {
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 15%;
+padding-right: 15%;
 width: 100%;
 overflow: hidden;
 background: #eaeff7;
 }
 
 .ecosystem1 .unit-2l-3 {
-	width: 50%;
+	width: 48%;
 	margin: 0 auto;
 	background: none;
 	
@@ -1581,10 +1592,6 @@ display: inline;
 	padding-left: 70px;
 }
 
-.boxEcosystem .unit-l-1 p {
-	width: 65%;
-}
-
 
 
 @media only screen and (min-width: 59em) and (max-width: 75em){
@@ -1595,10 +1602,10 @@ font-size: 1.5em;
 }
 
 .ecosystem1 .unit-Wl-1 {
-	width: 75%;
+	width: 70%;
 	display: block;
 		
-	margin-left: 12.5%;
+	margin-left: 15%;
 	
 	
 }
@@ -1618,11 +1625,14 @@ padding-top: 120px;
 	margin-bottom: 0;
 	display: inline-block;
 	padding-left: 0;
-	line-height: 1.6;
- 	font-size: 110%;
+	line-height: 1.4;
+ 	font-size: 130%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	padding-right: 35px;
+	background: none;
+	padding-left: 0;
+	font-weight: 200;
 	
 	
 }
@@ -1634,8 +1644,8 @@ padding-top: 120px;
 	width: 100%;
 	display: inline-block;
 	background: #f5f0f0;
-	padding-right: 10%;
-	padding-left: 10%;
+	padding-right: 15%;
+	padding-left: 15%;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	border-bottom: 2px solid #ccc;
@@ -1646,24 +1656,11 @@ padding-top: 120px;
 
 figcaption {
 	font-size: 0.8em;
-	padding-top: 8px;
+	padding-top: 12px;
 	
 	
 }
-figure {
-	margin-top: 0;
-	margin-left:0;
-	margin-right:0;
-	padding-top: 0;
-	width: 25%;
-	display: inline-block;
-	border: solid white 10px;
-	
-	background: white;
-	margin-bottom: 20px;
 
-	
-}
 
 .diet li{
 	list-style:inside;
@@ -1876,15 +1873,12 @@ figcaption {
 }
 figure {
 	margin-top: 0;
-	margin-left:3%;
+	margin-left:0;
 	margin-right:0;
 	padding-top: 0;
-	width: 30%;
+	width: 37%;
 	display: inline-block;
-	border: solid white 10px;
-	
-	
-	background: white;
+
 	margin-bottom: 20px;
 
 	
@@ -1909,6 +1903,7 @@ display: inline-block;
 	min-height: 300px;
 	
 }
+
 
 
 

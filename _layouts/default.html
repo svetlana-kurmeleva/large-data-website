@@ -6,24 +6,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<title>{% if page.title %}{{page.title}} · {% endif %}Discovery of the Amazing Arctic Wildlife; Ottawa, Canada{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
-    <meta name="description" content="Discovery of the Arctic environment and its amazing wildlife">
+    <meta name="description" content="{{page.meta}}">
    
     	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
         <script src="js/modernizr.js"></script>
 		
 <!--facebook-->
 <meta property="og:type" content="article">
-<meta property="og:title" content="Discovery of the Amazing Arctic wildlife; Ottawa, Canada">
+<meta property="og:title" content="{{page.title}}">
 <meta property="og:url" content="http://svetlana-kurmeleva.github.io/large-data-website/">
 <!-- Image size: minimum 200x200; recommended 1500x1500-->
-<meta property="og:image" content="http://svetlana-kurmeleva.github.io/large-data-website//img/arctic-landscape.gif">
-<meta property="og:description" content="Photo of the Arctic Landscape">
+<meta property="og:image" content="http://svetlana-kurmeleva.github.io/large-data-website/index.html">
+<meta property="og:description" content="{{page.meta}}">
 <meta property="og:site_name" content="Arctic Discovery">
 <!--Twitter-->
 <meta property="twitter:card" content="article">
-<meta property="twitter:title" content="Discovery of the Arctic environment and its amazing wildlife">
-<meta property="twitter:url" content="http://svetlana-kurmeleva.github.io/large-data-website/">
-<!-- Image size: 120x120 No twitter images of this size-->
+<meta property="twitter:title" content="{{page.title}}">
+<meta property="twitter:url" content="http://fullurl.com/to-this/article.http">
+<meta property="twitter:image" content="http://svetlana-kurmeleva.github.io/large-data-website/index.html">
+<meta property="twitter:description" content="{{page.meta}}">
 
 
 
@@ -45,9 +46,7 @@
 							<a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}" rel="home">Home</a>
 							
 						</li>
-						<li class="nav-item">
-							<a href="{{site.baseurl}}/ecosystem.html" class="{% if page.url == '/ecosystem.html' %}current{% endif %}">Ecosystem</a>
-						</li>
+						
 						<li class="nav-item">
 							<a href="{{site.baseurl}}/marine-mammals.html" class="{% if page.url contains 'marine-mammals' or page.url contains 'walruses' %}current{% endif %}" >Marine Animals</a>
 							<ul class="nav-submenu">
@@ -91,15 +90,15 @@
 							<a href="{{site.baseurl}}/marine-mammals.html">Survival or Extinction?</a>
 							<ul class="nav-submenu">
                             	<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/environmental-challenges.html">Envoronmental Challenges</a>
+									<a href="{{site.baseurl}}/walruses.html">Envoronmental Challenges</a>
 								</li>
 							             
                             
 								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/environmental-challenges.html">Endangered Arctic Wildlife</a>
+									<a href="{{site.baseurl}}/walruses.html">Endangered Arctic Wildlife</a>
 								</li>
 								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/environmental-challenges.html">Future of Arctic Mammals</a>
+									<a href="{{site.baseurl}}/walruses.html">Future of Arctic Mammals</a>
 								</li>
 								
 							</ul>
@@ -119,44 +118,7 @@
 
  <footer>       
  
- <nav class="nav-bottom">
-<ul class="left">
-						<li>
-							<a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}" rel="home">Home</a>
-							
-						</li>
-						<li>
-							<a href="{{site.baseurl}}/ecosystem.html" class="{% if page.url == '/ecosystem.html' %}current{% endif %}">Ecosystem</a>
-						</li>
-						<li >
-							<a href="{{site.baseurl}}/marine-mammals.html" class="{% if page.url contains 'marine-mammals' or page.url contains 'walruses' %}current{% endif %}" >Marine Animals</a></li>
-						
-								
-							
-                        <li></ul>
-							<ul class="right"><a href="marine-mammals.html">Land Animals</a></li>
-							
-								
-                 
-                        
-                      <li>
-							<a href="{{site.baseurl}}/marine-mammals.html">Survival or Extinction?</a></li>
-							
-                           
-								
-						
-						
-                              </ul>           
-					
- 
- 
- 
- 
- 
- 
- 
- </nav>
-       
+
               <p class="copyright"> © Arctic Discovery <!--Sources: <a href="http://wikipedia.org" rel="external">Wikipedia.org</a>--><a href="#top">Top</a>	</p>				  					
         </footer>
 
