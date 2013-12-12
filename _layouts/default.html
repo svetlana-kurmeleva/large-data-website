@@ -9,7 +9,7 @@
     <meta name="description" content="{{page.meta}}">
    
     	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-        <script src="js/modernizr.js"></script>
+        <script src="js/main.js"></script>
 		
 <!--facebook-->
 <meta property="og:type" content="article">
@@ -31,89 +31,20 @@
 </head>
 
 <body id="top">
-<ul class="skiplinks">
-<li><a href="#main">Skip to primary content</a></li>
-<li><a href="#complementary">Skip to secondary content</a></li>
-<li><a href="#navigation">Skip to navigation</a></li>
-</ul>
-<div class="wrapper">
-			<div class="main">
-				
-				<!-- Nav -->
-				<nav class="nav" role="navigation" id="navigation">
-					<ul class="nav-list">
-						<li class="nav-item">
-							<a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}" rel="home">Home</a>
-							
-						</li>
-						
-						<li class="nav-item">
-							<a href="{{site.baseurl}}/marine-mammals.html" class="{% if page.url contains 'marine-mammals' or page.url contains 'walruses' %}current{% endif %}" >Marine Animals</a>
-							<ul class="nav-submenu">
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Polar Bears</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Seals</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Walruses</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Whales</a>
-								</li>
-							</ul>
-						</li>
-                        
-                        					  
-                        
-                        <li class="nav-item">
-							<a href="{{site.baseurl}}/marine-mammals.html">Land Animals</a>
-							<ul class="nav-submenu">
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Arctic Fox</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Caribou</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Arctic Wolf</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Snowy Owl</a>
-								</li>
-							</ul>
-						</li>
-                 
-                        
-                        <li class="nav-item">
-							<a href="{{site.baseurl}}/marine-mammals.html">Survival or Extinction?</a>
-							<ul class="nav-submenu">
-                            	<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Envoronmental Challenges</a>
-								</li>
-							             
-                            
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Endangered Arctic Wildlife</a>
-								</li>
-								<li class="nav-submenu-item">
-									<a href="{{site.baseurl}}/walruses.html">Future of Arctic Mammals</a>
-								</li>
-								
-							</ul>
-						</li>
-                                         
-					</ul>
-				</nav>
-				<!-- /Nav -->
-				
-				
-					
-				</div>
-			</div>
-
-	{{content}}	
+	<ul class="skiplinks">
+    	<li><a href="#main">Skip to banner</a></li>
+		<li><a href="#main">Skip to primary content</a></li>
+		<li><a href="#complementary">Skip to secondary content</a></li>
+		<li><a href="#navigation">Skip to navigation</a></li>
+	</ul>
+    
+    
+    
+    
+    
+    {% include nav.html%}
+    
+    {{content}}	
 
 
  <footer>       
@@ -130,7 +61,7 @@
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/flaunt.js"></script> 
+		<script src="js/main.js"></script> 
 		
 		<script>
 			var _gaq=[['_setAccount','UA-20440416-10'],['_trackPageview']];
